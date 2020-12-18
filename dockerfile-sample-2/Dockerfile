@@ -8,5 +8,6 @@ WORKDIR /usr/share/nginx/html
 # using WORKDIR is preferred to using 'RUN cd /some/path'
 
 COPY index.html index.html
+COPY page1.html page1.html
 
 # I don't have to specify EXPOSE or CMD because they're in my FROM
